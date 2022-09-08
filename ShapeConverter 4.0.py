@@ -1,5 +1,5 @@
 # ==============================================================================#
-# =============================КОНВЕРТОР ФИГУР==================================#
+# =============================SHAPE CONVERTER==================================#
 # ==============================================================================#
 from turtle import *
 from time import *
@@ -20,12 +20,12 @@ def conv(x, y, t):
         lt(t)
 
 
-x = int(input("Выберите длинну стороны рисунка. (в пикселях) "))
-y = int(input("Выберите сколько раз будет повторяться одна линия. "))
-t = int(input("Выберите разворот перед второй линией. (в градусах) "))
-a = int(input("Выберите через сколько удалится ваша фигура? (в секундах) "))
-z = int(input("Выберите ширину вашей фигуры. "))
-print("Готово! Чтобы просмотреть вашу фигуру зайдите во вкладку Python Turtle Graphics.")
+x = int(input("Select the length of the side of the pattern. (in pixels) "))
+y = int(input("Choose how many times one line will be repeated. "))
+t = int(input("Select a U-turn before the second line. (in degrees) "))
+a = int(input("Choose after how long your figure will be removed? (in seconds) "))
+z = int(input("Choose the width of your shape. "))
+print("Ready! To view your shape, go to the Python Turtle Graphics tab.")
 
 width(z)
 begin_fill()
@@ -37,5 +37,5 @@ pu()
 
 exitonclick()
 # ==============================================================================#
-# ========================ВЕРСИЯ КОНВЕРТОРА ФИГУР: BETA 4.0======================#
+# ========================SHAPE CONVERTER VERSION: BETA 4.0======================#
 # ==============================================================================#
